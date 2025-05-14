@@ -1,0 +1,112 @@
+body{
+ background-image: url('C:\Users\moham\Desktop\Projects\booklibrary\public\Images\ChatGPT Image May 14, 2025, 11_09_16 AM.png');
+ background-repeat: no-repeat; 
+  background-size: cover; 
+
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+ background-image: url('C:\Users\moham\Desktop\Projects\booklibrary\public\Images\ChatGPT Image May 14, 2025, 11_09_16 AM.png');
+ background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
+.homepage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+  
+}
+
+.homepage-header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  flex: 1;
+  margin: 0;
+  color: gold;
+}
+
+
+.homepage-header button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #17191a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.homepage-header button:hover {
+  background-color: #b6b8bb;
+}
+
+
+.homepage-genre-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; 
+  margin-bottom: 40px;
+}
+
+.homepage-genre-button {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+
+.homepage-genre-button:hover {
+  transform: scale(1.05);
+  border-color: #007bff;
+}
+
+
+.homepage-genre-button img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #17191a;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
